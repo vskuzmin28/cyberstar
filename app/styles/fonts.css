@@ -1,0 +1,161 @@
+@import '../styles/helpers/variables.less';
+
+@font-face {
+    font-family: 'roboto_blackregular';
+    src: url('../fonts/roboto-black.woff2') format('woff2'),
+         url('../fonts/roboto-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_blackitalic';
+    src: url('../fonts/roboto-blackitalic.woff2') format('woff2'),
+         url('../fonts/roboto-blackitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold.woff2') format('woff2'),
+         url('../fonts/roboto-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('../fonts/roboto-bolditalic.woff2') format('woff2'),
+         url('../fonts/roboto-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_lightregular';
+    src: url('../fonts/roboto-light.woff2') format('woff2'),
+         url('../fonts/roboto-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_lightitalic';
+    src: url('../fontsroboto-lightitalic.woff2') format('woff2'),
+         url('../fontsroboto-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_mediumregular';
+    src: url('../fontsroboto-medium.woff2') format('woff2'),
+         url('../fontsroboto-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_mediumitalic';
+    src: url('../fontsroboto-mediumitalic.woff2') format('woff2'),
+         url('../fontsroboto-mediumitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fontsroboto-regular.woff2') format('woff2'),
+         url('../fontsroboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('../fontsroboto-regularitalic.woff2') format('woff2'),
+         url('../fontsroboto-regularitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_thinregular';
+    src: url('../fontsroboto-thin.woff2') format('woff2'),
+         url('../fontsroboto-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_thinitalic';
+    src: url('../fontsroboto-thinitalic.woff2') format('woff2'),
+         url('../fontsroboto-thinitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivobold';
+    src: url('../fonts/archivo-bold.woff2') format('woff2'),
+         url('../fonts/archivo-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivobold_italic';
+    src: url('../fonts/archivo-bolditalic.woff2') format('woff2'),
+         url('../fonts/archivo-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo_mediumregular';
+    src: url('../fonts/archivo-medium.woff2') format('woff2'),
+         url('../fonts/archivo-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo_mediumitalic';
+    src: url('../fonts/archivo-mediumitalic.woff2') format('woff2'),
+         url('../fonts/archivo-mediumitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivoregular';
+    src: url('../fonts/archivo-regular.woff2') format('woff2'),
+         url('../fonts/archivo-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivoitalic';
+    src: url('../fonts/archivo-regularitalic.woff2') format('woff2'),
+         url('../fonts/archivo-regularitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo_mediumregular';
+    src: url('../fonts/archivo-semibold.woff2') format('woff2'),
+         url('../fonts/archivo-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo_semibolditalic';
+    src: url('../fonts/archivo-semibolditalic.woff2') format('woff2'),
+         url('../fonts/archivo-semibolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

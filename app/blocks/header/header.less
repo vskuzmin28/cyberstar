@@ -1,0 +1,137 @@
+// header
+
+.header {
+    height: 72px;
+
+    &_fixed {
+        margin-top: 53px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__logo {
+        margin-right: 52px;
+        width: 272px;
+        height: 72px;
+    }
+
+    &__site-info {
+        flex-grow: 1;
+    }
+
+    &__desc {
+        margin: 0;
+        margin-top: -5px;
+        margin-bottom: 11px;
+        padding: 0;
+        width: 374px;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'lator', sans-serif;
+        color: @white;
+    }
+
+    &__keys {
+       text-transform: uppercase;
+       font-weight: bold;
+       font-size: 14px;
+       font-family: 'serifb';
+       color: @yellow;
+    }
+
+    &__phonenumber {
+        margin: 4px 0 0 0;
+        width: 100%;
+        height: auto;
+        display: block;
+        font-size: 32px;
+        font-family: 'serifb', sans-serif;
+        font-weight: bold;
+        color: @white;
+        line-height: 38px;
+        text-decoration: none;
+        text-align: right;
+
+        &:hover {
+            color: @yellow;
+            text-decoration: none;
+        }
+    }
+
+    &__call-popup {
+        margin-top: 4px;
+        width: 100%;
+        text-align: right;
+        font-size: 18px;
+        font-family: 'lator', sans-serif;
+        text-decoration: underline;
+        color: @yellow;
+        opacity: 0.7;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    &__call-info {
+        width: 240px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: right;
+    }
+
+}
+
+// / header
+
+@media screen and (max-width: @tablet) {
+    .header {
+        margin: 20px 0 100px 0;
+        height: auto;
+
+        &__container {
+            flex-direction: column;
+        }
+
+        &__logo {
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 0px;
+
+            img {
+                width: 60%;
+                height: auto;
+            }
+
+        }
+
+        &__call-popup, &__phonenumber {
+            text-align: left;
+        }
+
+        &__phonenumber {
+            margin-top: 20px;
+            font-size: 22px;
+        }
+
+        &__call-popup {
+            font-size: 16px;
+        }
+        
+        &__desc {
+            margin-top: -10px;
+            width: 100%;
+            font-size: 16px;
+        }
+
+    }
+}

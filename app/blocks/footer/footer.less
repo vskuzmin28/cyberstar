@@ -1,0 +1,165 @@
+// footer
+
+.footer {
+    height: 258px;
+    background: @blue-dark;
+    overflow: hidden;
+
+    &__container {
+        margin-top: 53px;
+        display: flex;
+        flex-direction: row;
+
+        &_small {
+            margin-top: 51px;
+            height: 22px;
+            align-items: center;
+        }
+
+    }
+
+    &__logo {
+        margin-right: 52px;
+        width: 272px;
+        height: 72px;
+    }
+
+    &__site-info {
+        flex-grow: 1;
+    }
+
+    &__desc {
+        margin: 0;
+        margin-top: -5px;
+        margin-bottom: 11px;
+        padding: 0;
+        width: 374px;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'lator', sans-serif;
+        color: @white;
+    }
+
+    &__keys {
+       text-transform: uppercase;
+       font-weight: bold;
+       font-size: 14px;
+       font-family: 'serifb';
+       color: @yellow;
+    }
+
+    &__phonenumber {
+        margin: -4px 0 8px 0;
+        width: 100%;
+        height: auto;
+        display: block;
+        font-size: 32px;
+        font-family: 'serifb', sans-serif;
+        font-weight: bold;
+        color: @white;
+        line-height: 38px;
+        text-decoration: none;
+        text-align: right;
+
+        &:hover {
+            color: @yellow;
+            text-decoration: none;
+        }
+    }
+
+    &__call-popup {
+        margin-top: 4px;
+        width: 230px;
+        height: 48px;
+        border: 2px solid @yellow;
+        background: 0;
+        font-size: 18px;
+        font-family: 'latob', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: @white;
+        display: flex;
+        justify-content: center;
+        line-height: 44px;
+
+        &:hover {
+            text-decoration: none;
+            background: @yellow;
+        }
+    }
+
+    &__call-info {
+        width: 240px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    &__copyright {
+        flex-grow: 1;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: 'lator', sans-serif;
+        color: @white;
+        opacity: 0.5;
+    }
+
+    &__polytic {
+        font-size: 14px;
+        line-height: 24px;
+        font-family: 'lator', sans-serif;
+        color: @white;
+        opacity: 0.5;    
+        text-decoration: underline;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+}
+
+// / footer
+
+@media screen and (max-width: @desktop) {
+
+    .footer {
+        height: auto;
+
+        &__container {
+            margin: 20px 5%;
+            flex-direction: column;
+
+            &_small {
+                margin: 20px 5%;
+                height: auto;
+            }
+
+        }
+
+        &__logo {
+            margin-bottom: 10px;
+            width: 50%;
+            height: auto;
+
+            img {
+                width: 180px;
+                height: auto;
+            }
+
+        }
+
+
+        &__site-info {
+            margin-bottom: 10px;
+        }
+
+        &__desc {
+            width: 100%;
+        }
+
+    }
+
+}
